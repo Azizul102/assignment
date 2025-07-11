@@ -5,6 +5,35 @@
     section{
         margin-top: 50px;
     }
+/* for all text  */
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* dafault */
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+button, input, textarea, select {
+  font-family: "Raleway", sans-serif;
+}
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .hero-section{
     background-image: url(../assignment/Assets/Hero-bg.png);
     margin-top: 0%;
@@ -67,3 +96,44 @@ header{
     line-height: 30px;
     margin-right: 40px;
 }
+.user-container{
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color:rgba(78, 71, 255, 0.1);
+    border-radius:24px ;
+}
+.user-heading{
+    font-size:38px ;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(37, 36, 50, 1);
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    max-width: 856px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    justify-content: space-between;
+
+}
+
+.user-title-value {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+  font-weight: 700; /* বা আপনার পছন্দের ওয়েট (400, 500, 700 ইত্যাদি) */
+  font-size: 5rem;
+  color: rgba(78, 71, 255, 1);
+
+}
+
+.user-description{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
