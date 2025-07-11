@@ -2,9 +2,7 @@
     margin:0;
     padding:0;
     }
-    section{
-        margin-top: 50px;
-    }
+
 /* for all text  */
 body {
   font-family: "Raleway", sans-serif;
@@ -13,6 +11,11 @@ body {
   font-style: normal;
   background-color: #f5f8ff;;
 }
+
+section{
+        margin-top: 50px;
+        
+    }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -137,6 +140,71 @@ header{
     align-content: center;
     text-align: center;
 }
+
+.testimonials {
+      max-width: 1140px;
+      margin-top: 50px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2d2d2d;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .review-cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      width: 300px;
+      text-align: left;
+    }
+
+    .stars {
+      color: #f5b50a;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .reviewer img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      font-size: 12px;
+      color: #888;
+    }
 .contact-container{
     display: flex;
     align-items: center;
